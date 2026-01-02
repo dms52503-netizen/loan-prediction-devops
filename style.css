@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+
+.home-bg, .login-bg, .loan-bg, .customer-bg, .history-bg {
+  background: url('https://images.unsplash.com/photo-1565373679109-6e6e8fbc4c1f');
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+
+input, button, select {
+  padding: 10px;
+  margin: 5px;
+}

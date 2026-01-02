@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loan-bg">
+
+<h2>Loan Prediction</h2>
+
+<input id="income" placeholder="Monthly Income">
+<input id="loan" placeholder="Loan Amount">
+<input id="credit" placeholder="Credit Score">
+
+<select id="type">
+  <option>Home Loan</option>
+  <option>Personal Loan</option>
+  <option>Education Loan</option>
+</select>
+
+<button onclick="predictLoan()">Check Loan</button>
+<p id="result"></p>
+
+<button onclick="location.href='customer.html'">Next</button>
+<button onclick="location.href='login.html'">⬅ Back</button>
+
+<script src="script.js"></script>
+</body>
+</html>
